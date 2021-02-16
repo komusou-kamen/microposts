@@ -46,7 +46,7 @@ class User < ApplicationRecord
       self.favorite_microposts.include?(micropost)
     end
     
-    def feed_favorite_microposts
-      self.favorite_microposts
-    end
+    #def feed_favorite_microposts
+    #  self.favorite_microposts
+    #end
 end
